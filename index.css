@@ -1,0 +1,18 @@
+.page-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+@media(max-width: 1600px) {
+  .page-container {
+    background-color: #D9D9D9;
+  }
+  .page-text {
+    font-size: 80px;
+    text-transform: uppercase;
+  }
+}
